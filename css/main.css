@@ -38,6 +38,10 @@ div {
   transition: all 1s ease;
 }
 
+.box-show {
+  opacity: 1;
+}
+
 .diamond {
   height: 80px;
   right: -100px;
@@ -46,6 +50,11 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
+  transition: all 1s ease;
+}
+
+.diamond-move {
+  right: 100px;
 }
 
 .panel {
@@ -59,6 +68,11 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  transition: all 1s ease;
+}
+
+.panel-collapse {
+  max-height: 0;
 }
 
 .panel h2 {
