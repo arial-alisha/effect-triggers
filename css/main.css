@@ -89,6 +89,43 @@ div {
   border-radius: 50%;
 }
 
+.circle-bounce {
+  animation: circle-bounce 2s ease;
+}
+
+@keyframes circle-bounce {
+  0% {
+    right: -100px;
+    top: 0px;
+  }
+
+  15% {
+    top: 10px;
+  }
+
+  25% {
+    top: -10px;
+  }
+
+  45% {
+    top: 10px;
+  }
+
+  60% {
+    top: -10px;
+  }
+
+  80% {
+    top: 10px;
+  }
+
+  100% {
+    right: 150px;
+    top: 0px;
+  }
+}
+
+
 .list {
   bottom: 1em;
   margin: 0;
