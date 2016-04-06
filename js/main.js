@@ -17,7 +17,7 @@ $body.on('click', '.btn-bounce', function () {
   $('.circle').addClass('circle-bounce');
 });
 
-$body.on('click', '.btn-bounce' function () {
+$body.on('animationend', '.btn-bounce' function () {
   $('.circle').removeClass('circle-bounce');
 });
 

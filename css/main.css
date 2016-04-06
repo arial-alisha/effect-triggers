@@ -94,9 +94,10 @@ div {
 }
 
 @keyframes circle-bounce {
+
   0% {
     right: -100px;
-    top: 0px;
+    top: 0;
   }
 
   15% {
@@ -121,10 +122,9 @@ div {
 
   100% {
     right: 150px;
-    top: 0px;
+    top: 0;
   }
 }
-
 
 .list {
   bottom: 1em;
@@ -154,6 +154,7 @@ div {
 }
 
 @keyframes list {
+
   0% {
     max-height: 0;
   }
